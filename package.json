@@ -4,7 +4,8 @@
   "description": "new project  login",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/lotus-1/LoginProject#readme",
   "dependencies": {
-    "query-string": "^6.5.0"
+    "pg": "^7.11.0",
+    "qs": "^6.7.0",
+    "query-string": "^6.5.0",
+    "request": "^2.88.0",
+    "response": "^0.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
