@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lotus-1/LoginProject#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "pg": "^7.11.0",
     "qs": "^6.7.0",
     "query-string": "^6.5.0",
